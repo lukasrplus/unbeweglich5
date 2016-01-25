@@ -1,0 +1,398 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+background-color: black;
+font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  padding-top: 0px;
+  letter-spacing: -4px;
+  margin-top: 0px;
+/*  letter-spacing: 5px;
+*/}
+
+h2 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+/*  letter-spacing: 5px;
+*/}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+h5 {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.gemeinde-hero-h1 {
+  padding-top: 80px;
+}
+
+.fat_h2 {
+  color: black;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 60px 0px;
+}
+
+.thumbnail {
+  background-color: black;
+  border: 0px solid white;
+}
+
+.panel {
+  background-color: black;
+  color: white;
+}
+
+.panel-title {
+  font-weight: 600;
+}
+
+.sidebar-brand {
+  margin-top: 20px;
+}
+
+.sidebar-nav > .sidebar-brand a  {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.landing-hero {
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+/*  position: relative;*/
+  background-repeat: repeat;
+  background-color: black;
+  max-width: 100%;
+  background-image: url(https://s3.eu-central-1.amazonaws.com/unbeweglich/bg/bg_new4.jpg);
+}
+
+.landing-hero-gemeinde {
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+/*  position: relative;*/
+  background-repeat: repeat;
+  background-color: black;
+  max-width: 100%;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+       url('https://s3.eu-central-1.amazonaws.com/unbeweglich/gemeinden/gemeinde2.jpg') no-repeat top center;
+}
+
+.landing-hero-bundesland {
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+/*  position: relative;*/
+  background-repeat: repeat;
+  background-color: black;
+  max-width: 100%;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+       url('https://s3.eu-central-1.amazonaws.com/unbeweglich/gemeinden/gemeinde6.jpg') no-repeat top center;
+}
+
+}
+
+#sidebar-wrapper {
+  background-color: black;
+}
+
+.object-box {
+  padding: 20px;
+}
+
+.btn-detailsearch, .btn-addlisting {
+  background-color: rgba(0,0,0,0);
+  margin-top: 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: 2px solid white;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.btn-detailsearch_black {
+  background-color: rgba(0,0,0,0);
+  margin-top: 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: 2px solid black;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.btn-detailsearch_black:hover {
+  background-color: rgba(0,0,0,1);
+  margin-top: 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: 2px solid black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.btn-addlisting {
+  font-size: 14px;
+  margin-top: 0px;
+  background-color: #2ECC71;
+  border: 2px solid #2ECC71;
+}
+
+.btn-seedetails {
+  font-size: 14px;
+  margin-top: 0px;
+  background-color: #c0392b;
+  border: 2px solid #c0392b;
+}
+
+.btn-detailsearch:hover, .btn-addlisting:hover, .btn-seedetails:hover {
+  background-color: white;
+  color: black;
+    border: 2px solid white;
+}
+
+.btn-detailsearch:focus, .btn-addlisting:focus, .btn-seedetails:hover {
+  background-color: rgba(0,0,0,0);
+  margin-top: 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: 2px solid white;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.breadcrumb {
+  border-radius: 0px;
+  padding: 0px;
+  margin-top: 15px;
+  background-color: white;
+}
+/*PROMOTION GEMEINDEN*/
+
+
+
+.gemeinden-index {
+  padding: 0px 10px;
+}
+
+.gemeinde-box {
+  height: 380px;
+  border: 10px solid white;
+  background-size: cover;
+}
+
+/*.gemeinde-box:hover {
+  border: 0px solid pink;
+}*/
+
+#gemeinde-box-id1 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+       url('https://s3.eu-central-1.amazonaws.com/unbeweglich/gemeinden/gemeinde_small1.jpg') no-repeat top center;
+}
+
+#gemeinde-box-id2 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+       url('https://s3.eu-central-1.amazonaws.com/unbeweglich/gemeinden/gemeinde_small2.jpg') no-repeat top center;
+}
+
+#gemeinde-box-id3 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+       url('https://s3.eu-central-1.amazonaws.com/unbeweglich/gemeinden/gemeinde_small3.jpg') no-repeat top center;
+}
+
+#gemeinde-box-id4 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+       url('https://s3.eu-central-1.amazonaws.com/unbeweglich/gemeinden/gemeinde_small4.jpg') no-repeat top center;
+}
+
+#gemeinde-box-id5 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+       url('https://s3.eu-central-1.amazonaws.com/unbeweglich/gemeinden/gemeinde_small5.jpg') no-repeat top center;
+}
+
+
+.gemeinde-headline, .gemeinde-subline {
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.gemeinde-headline {
+  font-weight: 800;
+  margin-top: 160px;
+}
+
+
+
+/* NAVBAR */
+.navbar-default {
+  background-color: rgba(0,0,0,0);
+  border: 0px solid white;
+  padding: 30px 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-weight: 600;
+  color: white;
+}
+/*SEARCHBAR LANDINGPAGE*/
+
+.form-control {
+  color: white;
+}
+
+#custom-search-input{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 2px;
+    border: solid 2px white;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,1);
+    width: 80%;
+
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+    background-color: rgba(0,0,0,0);
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: black;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+    color: green;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+/*OBJECTS*/
+.object-index {
+  border: 10px solid white;
+}
+
+.object-row {
+  margin-bottom: 30px;
+}
+
+.object-row-img {
+height: 300px;
+  border: 10px solid white;
+  background-size: cover;
+
+}
+
+
+.object-headline {
+  color: black;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.object-subline {
+  color: black;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+.object-detail-box {
+  text-align: center;
+  color: black;
+  padding-top: 30px;
+  letter-spacing: -1px;
+}
+
+.object-detail-text {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/*FOOTER NAVIGATION*/
+
+.nav_footer {
+  margin-top: 150px;
+  background-color: #ecf0f1;
+
+  padding: 60px 10px;
+}
+
+.bezirk-liste a {
+  display: block;
+  font-size: 12px;
+  color: #7f8c8d;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #7f8c8d;
+  height: 150px;
+}
